@@ -4,7 +4,7 @@ function checkLogin(event) {
   const username = document.getElementById('username').value;
   const password = document.getElementById('password').value;
 
-  if (username === "kave-md" && password === "Kavee") {
+  if (username === "kave-md" && password === "kavee") {
     document.querySelector('.login-box').style.opacity = '0';
     document.querySelector('.login-box').style.transform = 'translate(-50%, -50%) scale(0.9)';
     setTimeout(() => {
